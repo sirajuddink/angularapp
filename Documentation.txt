@@ -1,0 +1,65 @@
+1. Angular is a component based architecture.
+2. what is Angular?
+    Angular is frontend framework: Is a collection of HTML, CSS TS. It is a OpenSource and in early it was 
+    introduced in JS but then it was then completely  rewritten in OpenSource TypeScript. 
+     - Primary Goal of Angular was to develop a Single Page application.
+     - Template: Presentation can be expressed by using HTML, 
+     - In Angular for every component we have one HTML file. 
+     - Angular is maintained by Google. 
+     - Initially it was designed for web development and now used also for mobile platforms. 
+
+3. Features :-  
+     - Document Object Model (DOM): Everything is treating as object. 
+     - TypeScript
+     - Data Binding: It allows the user to manipulate. 
+        Example: 1. Client is is sending a Data to be store in DB
+                 2. Request: Get data from DB: Angular provides One way binding and two way binding.
+     - Testing: Angular uses Jasmin framework to run the test cases and another tool is Karma which is a task runner
+                for the test cases.
+4. Architecture :-
+     - MVC:- Model View Controller
+       Example:
+            View (Client) >>>> Controller >>> Model (Data Related Logic) 
+                          <<<             <<< Process the request and send back to Client via Model.
+        Model: Object
+        View: Presentation
+        Controller: Business Logic
+    - Architecture is composed of 
+                - Module
+                - Component: TypeScript Files
+                - Template: HTML File
+                - Directives: Used to changed the DOM or let say to beautify the web page. 
+                - Data Binding: Property Binding and Event Binding 
+                - Service(DI Dependencies Injection): They are not imported by the component but explicitly ask to be injected. And a single service for the entire aplpication will be enough.
+                - Routing
+        NG Model: 
+    - Angular Advantages :- 
+            - Component can be customized.
+            - DI (Dependencies Injection): Services can be injected.
+            - Data Binding
+            - Testing
+            - Out of box thinking
+            - Support all types of Browsers
+
+            Limitations:
+            - Learning curve steep
+            - SEO: Limited
+            - Migration
+
+            Companies like: Nike, Google, Forbes, HBO, SONY, GM and more.
+
+            Component: Common featured of COmponent:
+            - Building block of your application.
+            - Root Component: Even though there are 1000 of component but there will be root component which will have all the information of other component: appComponent:Branches
+            - Every component has its own Template, Service, and using some sort of Directives. 
+                - Every Template has three diffrent type of Directives:
+                    - Component
+                    - Structural Directives.
+                    - Attribute Directives
+                - One Template can have one component or one component can have one Template.
+                
+Today's Agenda:
+1. Component Creation: 
+2. Basic Operation on Angular
+3. 
+            
